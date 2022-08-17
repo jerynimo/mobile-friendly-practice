@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: black
+
+}
+
+
+section > h2 {
+    color: #089db7;
+}
+
+.s1 {
+    text-align: left;
+}
+
+.s2 {
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+footer{
+    background-color: #001d24;
+    text-align: center;
+    color: white;
+    padding: 15px;
+
+}
