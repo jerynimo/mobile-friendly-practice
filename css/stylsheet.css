@@ -5,12 +5,28 @@ body{
     background: black
 
 }
+/* min-width is this size and larger, "at least this size" */
+@media (min-width: 480px) {
+    .media-example {
+      color: rgb(0, 255, 76);
+    }
+  }
+  
+  /* max-width is this size and smaller, "at most this size" */
+  @media (max-width: 768px) {
+    .media-example {
+      color: rgb(26, 38, 211);
+    }
+  }
+ 
+  @media (min-width: 1024px){
+    .media-example{
+        color: red;
+    }
+  }
+  
 
-
-section > h2 {
-    color: #089db7;
 }
-
 .s1 {
     text-align: left;
 }
